@@ -468,12 +468,23 @@ section h3.section-subheading p{
 	margin-bottom: 0;
 }
 
-.event-host {
-	height: 200px;
+.event-host-text-div {
+    align-items: center;
+    display: flex;
+	justify-content: center;
+	padding-left: 10px;
+	padding-right: 10px;
 }
-.event-host img {
-	margin: 0 auto;
-	height: 100px;
+
+.event-host-text {
+	text-align: center;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	font-size: 14px;
+}
+
+.event-host-text-div img {
+	width: 100px;
 }
 
 .team-member {
@@ -723,6 +734,9 @@ body {
 	border: 1px dashed #bbbbbb;
 }
 @media (min-width:768px) {
+.event-host-text {
+	font-size: 24px;
+}
 #booklet{
 	height: 40vh;
 }
